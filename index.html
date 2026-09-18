@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mansha Saba | Student Portfolio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: Arial, sans-serif;
+            background: #fdf2f8;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #be185d, #7e22ce);
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+        header h1 { font-size: 42px; margin-bottom: 10px; }
+        header p { font-size: 18px; }
+        nav {
+            background: white;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 8px #ddd;
+        }
+        nav a {
+            color: #be185d;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+        section {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px #ead5e5;
+        }
+        h2 { color: #be185d; margin-bottom: 15px; }
+        .skills { display: flex; flex-wrap: wrap; gap: 12px; }
+        .skill {
+            background: #fce7f3;
+            color: #be185d;
+            padding: 10px 18px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .project {
+            background: #faf5ff;
+            padding: 18px;
+            margin: 15px 0;
+            border-left: 5px solid #be185d;
+            border-radius: 8px;
+        }
+        .project h3 { color: #7e22ce; margin-bottom: 8px; }
+        .contact a { color: #be185d; text-decoration: none; }
+        footer {
+            background: #831843;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 30px;
+        }
+        @media (max-width: 600px) {
+            header h1 { font-size: 30px; }
+            section { margin: 20px 12px; padding: 22px; }
+            nav a { display: inline-block; margin: 5px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mansha Saba</h1>
+        <p>IBM Student | Dong-A University</p>
+        <p>Busan, South Korea</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! My name is Mansha Saba. I am an IBM student at Dong-A University in Busan, South Korea.</p>
+        <p>I am interested in technology, programming, business, and developing new skills.</p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills">
+            <span class="skill">HTML</span>
+            <span class="skill">Python</span>
+            <span class="skill">Communication</span>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>1. Personal Student Portfolio</h3>
+            <p>Created a personal portfolio website using HTML and CSS to introduce myself, my skills, and my academic background.</p>
+        </div>
+        <div class="project">
+            <h3>2. Python Programming Practice</h3>
+            <p>Practiced basic Python concepts, including variables, data types, operators, and conditional statements.</p>
+        </div>
+        <div class="project">
+            <h3>3. Student Business Project</h3>
+            <p>Explored business ideas and developed communication and teamwork skills through academic activities and group projects.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:sikanderrao494@gmail.com">sikanderrao494@gmail.com</a></p>
+        <p>Instagram: Coming soon</p>
+        <p>University: Dong-A University</p>
+        <p>Location: Busan, South Korea</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Mansha Saba. All Rights Reserved.</p>
+        <p>Student Portfolio Website</p>
+    </footer>
+</body>
+</html>
